@@ -3,7 +3,9 @@
 source define_colors.sh
 source define_googleplay_apps.sh
 
-echo -e "${M}build.gradle\n$(grep 'version' build.gradle)${Z}"
+echo -en "${M}"
+./find-version.sh
+echo -en "${Z}"
 
 verbose=$1
 for PACKAGE in ${PACKAGES}; do
