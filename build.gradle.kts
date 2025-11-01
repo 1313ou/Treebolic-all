@@ -20,8 +20,8 @@ allprojects {
         set("versionCode", 118)
         set("versionName", "6.118")
         set("minSdk", 21)
-        set("targetSdk", 35)
-        set("compileSdk", 35)
+        set("targetSdk", 36)
+        set("compileSdk", 36)
     }
 
     gradle.projectsEvaluated {

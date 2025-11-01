@@ -4,7 +4,7 @@ HERE
 /dist
 /release
 /captures
-/gradle
+/gradle/wrapper
 /gradlew*
 /.gradle
 /.externalNativeBuild

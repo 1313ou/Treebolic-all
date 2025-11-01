@@ -1,0 +1,83 @@
+[versions]
+agp = "8.13.0"
+kwi = "3.0.0"
+treebolic = "4.2-0"
+
+google-services = "4.4.4"
+desugar = "2.1.5"
+multidex = "2.0.1"
+kotlin = "2.2.21"
+
+core-ktx = "1.17.0"
+annotation = "1.9.1"
+
+appcompat = "1.7.1"
+activity = "1.11.0"
+recyclerview = "1.4.0"
+webkit = "1.14.0"
+material = "1.13.0"
+constraintlayout = "2.2.1"
+preference = "1.2.1"
+billing = "8.0.0"
+ads = "24.7.0"
+ads-firebase = "23.6.0"
+compress = "1.28.0"
+
+test = "1.7.0"
+test-junit = "1.3.0"
+espresso = "3.7.0"
+junit = "4.13.2"
+
+[libraries]
+treebolic-view = { group = "io.github.treebolic", name = "treebolic-view", version.ref = "treebolic" }
+treebolic-model = { group = "io.github.treebolic", name = "treebolic-model", version.ref = "treebolic" }
+treebolic-mutable = { group = "io.github.treebolic", name = "treebolic-mutable", version.ref = "treebolic" }
+treebolic-graph = { group = "io.github.treebolic", name = "treebolic-graph", version.ref = "treebolic" }
+treebolic-glue-iface = { group = "io.github.treebolic", name = "treebolic-glue-iface", version.ref = "treebolic" }
+treebolic-loadbalancer = { group = "io.github.treebolic", name = "treebolic-loadbalancer", version.ref = "treebolic" }
+treebolic-provider-kwi = { group = "io.github.treebolic", name = "provider-wordnet-kwi", version.ref = "treebolic" }
+treebolic-provider-jwi = { group = "io.github.treebolic", name = "provider-wordnet-jwi", version.ref = "treebolic" }
+
+treebolic-provider-xml-dom = { group = "io.github.treebolic", name = "provider-xml-dom", version.ref = "treebolic" }
+treebolic-provider-xml-sax = { group = "io.github.treebolic", name = "provider-xml-sax", version.ref = "treebolic" }
+treebolic-provider-text-indent-tree = { group = "io.github.treebolic", name = "provider-text-indent-tree", version.ref = "treebolic" }
+treebolic-provider-text-indent = { group = "io.github.treebolic", name = "provider-text-indent", version.ref = "treebolic" }
+treebolic-provider-text-pair= { group = "io.github.treebolic", name = "provider-text-pair", version.ref = "treebolic" }
+treebolic-provider-graphviz = { group = "io.github.treebolic", name = "provider-graphviz", version.ref = "treebolic" }
+treebolic-provider-files = { group = "io.github.treebolic", name = "provider-files", version.ref = "treebolic" }
+treebolic-provider-sql-generic = { group = "io.github.treebolic", name = "provider-sql-generic", version.ref = "treebolic" }
+treebolic-provider-owl-sax = { group = "io.github.treebolic", name = "provider-owl-sax", version.ref = "treebolic" }
+
+kwi = { group = "io.github.oewntk", name = "kwi", version.ref = "kwi" }
+
+desugar = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "desugar" }
+multidex = { group = "androidx.multidex", name = "multidex", version.ref = "multidex" }
+
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+
+activity = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" } # strictly not a dependency but for menu resources validation
+annotation = { group = "androidx.annotation", name = "annotation", version.ref = "annotation" } # strictly runtimeOnly but needed for resources validation
+preference-ktx = { group = "androidx.preference", name = "preference-ktx", version.ref = "preference" }
+recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+webkit = { group = "androidx.webkit", name = "webkit", version.ref = "webkit" }
+
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+billing = { group = "com.android.billingclient", name = "billing", version.ref = "billing" }
+ads-firebase = { group = "com.google.firebase", name = "firebase-ads", version.ref = "ads-firebase" }
+ads-service = { group = "com.google.android.gms", name = "play-services-ads", version.ref = "ads" }
+
+compress = { group = "org.apache.commons", name = "commons-compress", version.ref = "compress" }
+
+test-core = { group = "androidx.test", name = "core", version.ref = "test" }
+test-junit = { group = "androidx.test.ext", name = "junit", version.ref = "test-junit" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso" }
+espresso-contrib = { group = "androidx.test.espresso", name = "espresso-contrib", version.ref = "espresso" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+googleServices = { id = "com.google.gms.google-services", version.ref = "google-services" }
