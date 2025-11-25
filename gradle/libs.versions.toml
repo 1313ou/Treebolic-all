@@ -1,5 +1,5 @@
 [versions]
-agp = "8.13.0"
+agp = "8.13.1"
 kwi = "3.0.0"
 treebolic = "4.2-0"
 
@@ -12,14 +12,14 @@ core-ktx = "1.17.0"
 annotation = "1.9.1"
 
 appcompat = "1.7.1"
-activity = "1.11.0"
+activity = "1.12.0"
 recyclerview = "1.4.0"
 webkit = "1.14.0"
 material = "1.13.0"
 constraintlayout = "2.2.1"
 preference = "1.2.1"
-billing = "8.0.0"
-ads = "24.7.0"
+billing = "8.1.0"
+ads = "24.8.0"
 ads-firebase = "23.6.0"
 compress = "1.28.0"
 
