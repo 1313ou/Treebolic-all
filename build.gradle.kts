@@ -17,8 +17,8 @@ buildscript {
 allprojects {
 
     ext {
-        set("versionCode", 122)
-        set("versionName", "7.122")
+        set("versionCode", 123)
+        set("versionName", "7.123")
         set("minSdk", 23)
         set("targetSdk", 36)
         set("compileSdk", 36)
