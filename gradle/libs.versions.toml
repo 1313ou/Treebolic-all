@@ -1,5 +1,5 @@
 [versions]
-agp = "8.13.2"
+agp = "9.0.0"
 kwi = "3.0.0"
 treebolic = "4.2-0"
 
@@ -79,5 +79,5 @@ espresso-contrib = { group = "androidx.test.espresso", name = "espresso-contrib"
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 androidLibrary = { id = "com.android.library", version.ref = "agp" }
-kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version = "2.2.0" }
 googleServices = { id = "com.google.gms.google-services", version.ref = "google-services" }
