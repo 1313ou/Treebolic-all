@@ -10,7 +10,7 @@ RECENT_CHANGES="$2"
 if [ -z "${RECENT_CHANGES}" ]; then
 	RECENT_CHANGES="Fixes"
 fi
-PACKAGE=org.treebolic.royals
+PACKAGE=org.treebolic.royals2
 AAB=treebolicRoyals
 DIR=dist/releases
 
@@ -19,5 +19,3 @@ python2 googleplay_upload_aab.py \
 	"${RELEASE_NAME}" \
 	"${RECENT_CHANGES}" \
 	${DIR}/${AAB}-release.aab \
-
-

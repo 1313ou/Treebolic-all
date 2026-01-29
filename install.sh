@@ -16,7 +16,7 @@ DIR=dist/releases
 
 iwordnet="org.treebolic.wordnet.browser org.treebolic.wordnet.browser.amazon org.treebolic.wordnet.browser.google org.treebolic.wordnet.browser.iab"
 itreebolic=org.treebolic
-iones="org.treebolic.fungi org.treebolic.royals org.treebolic.plants"
+iones="org.treebolic.fungi org.treebolic.royals2 org.treebolic.plants"
 iservices="org.treebolic.files.service org.treebolic.owl.service org.treebolic.wordnet.service"
 icontact="org.treebolic.contacts"
 iall="$itreebolic $iones $icontact $iwordnet $iplugins $iservices"

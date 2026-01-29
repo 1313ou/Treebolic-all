@@ -2,7 +2,7 @@
 
 find_it()
 {
-	find . -name "build.gradle"
+	find . -not -path './archive/*' -name "build.gradle.kts" -print
 }
 find_it
 

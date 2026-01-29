@@ -10,7 +10,7 @@ export packages_services="
 "
 
 export packages_ones="
-	org.treebolic.royals.trial
+	org.treebolic.royals2
 	org.treebolic.fungi
 	org.treebolic.owl.sumo
 "
@@ -22,15 +22,6 @@ export packages_specifics="
 export packages_wordnet="
 	org.treebolic.wordnet.browser
 	org.treebolic.wordnet.browser.google
-"
-
-export packages_suspended="
-	org.treebolic.royals
-	org.treebolic.wordnet.browser.iab
-"
-
-export packages_obsolete="
-	org.treebolic.dot
 "
 
 export PACKAGES="
@@ -50,27 +41,13 @@ export PACKAGES_BY_KEY=(
 
 [treebolicFungi]=org.treebolic.fungi
 [treebolicSumo]=org.treebolic.owl.sumo
-[treebolicRoyalsIAB]=org.treebolic.royals.trial
+[treebolicRoyals]=org.treebolic.royals2
 
 [treebolicContacts]=org.treebolic.contacts
 
 [treebolicWordNet]=org.treebolic.wordnet.browser
-[treebolicWordNetForGoogle]=org.treebolic.wordnet.browser.google
 )
 export KEYS="${!PACKAGES_BY_KEY[@]}"
-
-
-declare -A PACKAGES_UNUSED_BY_KEY
-export PACKAGES_UNUSED_BY_KEY=(
-[treebolicWordNetServices]=org.treebolic.wordnet
-
-[treebolicPlants]=org.treebolic.plants
-
-[treebolicRoyals]=org.treebolic.royals
-[treebolicWordNetIAB]=org.treebolic.wordnet.browser.iab
-
-[treebolicWordNetForAmazon]=org.treebolic.wordnet.browser.amazon
-)
 
 declare -A FLAVORS_BY_KEY
 export FLAVORS_BY_KEY=(
@@ -82,11 +59,7 @@ export FLAVORS_BY_KEY=(
 [treebolicSumo]= 
 [treebolicPlants]=
 [treebolicRoyals]=
-[treebolicRoyalsIAB]=-production
 [treebolicContacts]=
 [treebolicWordNet]= 
-[treebolicWordNetForAmazon]= 
-[treebolicWordNetForGoogle]=
-[treebolicWordNetIAB]=-production
 )
 

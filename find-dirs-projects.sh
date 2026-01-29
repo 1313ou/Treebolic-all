@@ -1,5 +1,5 @@
 #!/bin/bash
 
-DIRS="Treebolic TreebolicAll TreebolicContacts TreebolicFungi TreebolicLib TreebolicOne TreebolicPay TreebolicPlants TreebolicPlugins TreebolicRoyals TreebolicServices TreebolicSupportLibs TreebolicWordNet"
+DIRS="Treebolic TreebolicLib TreebolicPay  TreebolicSupportLibs TreebolicOne  TreebolicContacts TreebolicRoyals TreebolicSumo TreebolicPlants TreebolicFungi TreebolicServices TreebolicWordNet"
 echo $DIRS
 
