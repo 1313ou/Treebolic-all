@@ -21,7 +21,6 @@ export packages_specifics="
 
 export packages_wordnet="
 	org.treebolic.wordnet.browser
-	org.treebolic.wordnet.browser.google
 "
 
 export PACKAGES="
