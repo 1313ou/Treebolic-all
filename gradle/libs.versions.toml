@@ -1,12 +1,12 @@
 [versions]
 agp = "9.0.0"
+kotlin = "2.3.0"
+
 kwi = "3.0.0"
 treebolic = "4.2-0"
 
 google-services = "4.4.4"
 desugar = "2.1.5"
-multidex = "2.0.1"
-kotlin = "2.2.21"
 
 core-ktx = "1.17.0"
 annotation = "1.9.1"
@@ -51,8 +51,9 @@ treebolic-provider-owl-sax = { group = "io.github.treebolic", name = "provider-o
 kwi = { group = "io.github.oewntk", name = "kwi", version.ref = "kwi" }
 
 desugar = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "desugar" }
-multidex = { group = "androidx.multidex", name = "multidex", version.ref = "multidex" }
 
+kotlin-bom = { group = "org.jetbrains.kotlin", name = "kotlin-bom", version.ref = "kotlin" }
+kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib", version.ref = "kotlin" }
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
 
 activity = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity" }
