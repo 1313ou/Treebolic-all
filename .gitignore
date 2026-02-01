@@ -16,6 +16,7 @@ HERE
 **/keystore
 **/*keystore
 **/keystore.properties
+**/keystore_upload.properties
 **/google-services.json
 **/*.iml
 **.iml
