@@ -36,6 +36,9 @@ project(":treebolicGlue").projectDir = File("./TreebolicLib/treebolicGlue/")
 
 // L I B S
 
+include(":theming")
+project(":theming").projectDir = File("./TreebolicSupportLibs/theming/")
+
 include(":commonLib")
 project(":commonLib").projectDir = File("./TreebolicSupportLibs/commonLib/")
 
@@ -199,3 +202,4 @@ project(":treebolicContacts").projectDir = File("./TreebolicContacts/treebolicCo
 
 include(":wordNetProvider")
 project(":wordNetProvider").projectDir = File("./TreebolicWordNet/wordNetProvider/")
+include(":theming")
