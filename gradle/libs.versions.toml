@@ -1,6 +1,6 @@
 [versions]
-agp = "9.1.0"
-kotlin = "2.3.0"
+agp = "9.2.0"
+kotlin = "2.3.20"
 
 kwi = "3.0.0"
 treebolic = "4.2-0"
@@ -8,18 +8,19 @@ treebolic = "4.2-0"
 google-services = "4.4.4"
 desugar = "2.1.5"
 
-core-ktx = "1.17.0"
-annotation = "1.9.1"
+core-ktx = "1.18.0"
+annotation = "1.10.0"
 
 appcompat = "1.7.1"
-activity = "1.12.3"
+activity = "1.13.0"
+lifecycle = "2.10.0"
 recyclerview = "1.4.0"
 webkit = "1.15.0"
 material = "1.13.0"
 constraintlayout = "2.2.1"
 preference = "1.2.1"
 billing = "8.3.0"
-ads = "24.9.0"
+ads = "25.2.0"
 ads-firebase = "23.6.0"
 compress = "1.28.0"
 
@@ -57,6 +58,7 @@ kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib", versio
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
 
 activity = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity" }
+lifecycle-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" } # strictly not a dependency but for menu resources validation
 annotation = { group = "androidx.annotation", name = "annotation", version.ref = "annotation" } # strictly runtimeOnly but needed for resources validation
 preference-ktx = { group = "androidx.preference", name = "preference-ktx", version.ref = "preference" }
