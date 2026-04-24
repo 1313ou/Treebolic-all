@@ -11,7 +11,7 @@ DIRS=`./find-git-repos.sh`
 for d in $DIRS; do
 	echo -e "${MAGENTA}$d${RESET}"
 	pushd $d > /dev/null
-	git switch -C $branch
+	git switch $branch
 	popd > /dev/null
 done
 
