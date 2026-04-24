@@ -9,6 +9,7 @@ TreebolicSponsorLibs
 TreebolicOne
 TreebolicContacts
 TreebolicRoyals
+TreebolicFiles
 TreebolicSumo
 TreebolicPlants
 TreebolicFungi
