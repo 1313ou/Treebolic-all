@@ -1,0 +1,4 @@
+#F44336  Tomato
+#B71C1C  Darkish red
+#81C784  Faded green
+#B71C1C  Darkish red
