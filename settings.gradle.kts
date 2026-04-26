@@ -202,4 +202,3 @@ project(":treebolicContacts").projectDir = File("./TreebolicContacts/treebolicCo
 
 include(":wordNetProvider")
 project(":wordNetProvider").projectDir = File("./TreebolicWordNet/wordNetProvider/")
-include(":theming")
