@@ -10,4 +10,3 @@ export app2path=(
 [files]=TreebolicServices/treebolicFilesServices/file-services
 )
 export apps="${!app2path[@]}"
-

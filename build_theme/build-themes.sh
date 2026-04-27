@@ -1,5 +1,4 @@
 #!/usr/bin/bash
-  
 
 source define_colors.sh
 source define_data.sh
@@ -20,7 +19,7 @@ for app in ${all}; do
   res=$H/$d/src/main/res
   seedsDay=${t}-day.txt 
   seedsNight=${t}-night.txt
-  echo -e "${Y}${app} ${t}${Z} ${B}$res${Z} ${M}$seedsDay $seedsNight${Z}"
+  echo -e "${bY}${K}${app} ${t}${Z} ${B}$res${Z} ${M}$seedsDay $seedsNight${Z}"
 
   if [ ! -e "$seedsDay" ]; then
         echo -e "${R}${seedsDay}${Z}"
@@ -36,4 +35,4 @@ for app in ${all}; do
   
   ./build-theme.sh "$res" "$seedsDay" "$seedsNight"
 
-done  
+done
