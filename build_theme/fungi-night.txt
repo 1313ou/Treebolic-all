@@ -1,4 +1,4 @@
 #5F5438  Greyish brown
-#403826  Dark brown
+#8ED873  Dark brown
 #8BC34A  Leaf
-#3F385F  Dusk
+#7A70BC  Dusk

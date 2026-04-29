@@ -1,4 +1,4 @@
-#FFBB33  Squash
-#F57C00  Pumpkin orange
+#7D7066  Squash
+#F5AE81  Pumpkin orange
+#C46200  Pumpkin orange
 #C62828  Scarlet
-#F57C00  Pumpkin orange
