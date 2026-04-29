@@ -1,4 +1,4 @@
-#EF7C00  Pumpkin
+#EFB36F  Pumpkin
 #BD1789  Red violet
 #86BA0C  Dark lime
-#BD1789  Red violet
+#EF7C00  Pumpkin
