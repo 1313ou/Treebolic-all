@@ -1,4 +1,4 @@
-#76AC47  Turtle green
-#1B5E20  British racing green
+#375225  Turtle green
+#85C38B  British racing green
+#38B83E  British racing green
 #FFC107  Marigold
-#1B5E20  British racing green
