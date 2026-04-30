@@ -1,4 +1,4 @@
-#7E57C2  Light indigo
-#673AB7  Bluey purple
-#EF7C00  Pumpkin
-#673AB7  Bluey purple
+#4E30C2  Light indigo
+#B7658F  Bluey purple
+#9F90B7  Bluey purple
+#EFA044  Pumpkin
