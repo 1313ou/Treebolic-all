@@ -1,4 +1,4 @@
 #003E36  Teal
 #00B692  Dark blue green
-#FFA500  Yellowish orange
+#FFBA4C  Yellowish orange
 #A1E8E5  Topaz
